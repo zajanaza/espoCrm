@@ -1,0 +1,25 @@
+{
+  "menu":{
+    "list":{
+      "buttons":[
+        {
+          "label": "Task",
+          "link": "#Task",
+          "acl": "read",
+          "aclScope": "Task"
+        }
+      ]
+    }
+  },
+  "detailActionList": [
+    "__APPEND__",
+    {
+      "label": "Najít kontakt",
+      "name": "najitKontakt",
+      "acl": "edit",
+      "data": {
+        "handler": "custom:najit-kontakt"
+      }          
+    } 
+  ]    
+}

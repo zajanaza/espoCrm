@@ -1,0 +1,14 @@
+{
+  "menu":{
+    "list":{
+      "buttons":[
+        {
+          "label": "Task",
+          "link": "#Task",
+          "acl": "read",
+          "aclScope": "Task"
+        }
+      ]
+    }
+  }
+}
